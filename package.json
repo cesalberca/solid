@@ -1,0 +1,16 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel watch index.html",
+    "build": "parcel index.html",
+    "lint": "prettier --write --config .prettierrc src/**/*.ts"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.15.3",
+    "typescript": "^3.2.2"
+  }
+}
